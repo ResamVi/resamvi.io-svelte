@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* any content (i.e. section) has "overflow-wrap: anywhere" but tables shouldn't */
+/* h1>: dirty global */
+table {
+    overflow-wrap: normal;
+}
+
+table img {
+    width: 100%; /* using `width` would have ultra-wide images */
+}
+
+/* All images of an entry should fit responsively */
+img {
+    margin: 5px;
+    max-width: 100%; /* using `width` would have ultra-wide images */
+}
+
+/* responsive audio players */
+audio {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Used for youtube videos only currently */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* 16:9 ratio */
+.video-container {
+    height: calc(100vw * 0.562499999);
+    margin: 10px;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('/fonts/cinzel.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('/fonts/spacemono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/roboto.ttf') format('truetype');
+}
+
+.serif {
+    font-family: 'Cinzel', serif;
+}
+
+.monospace {
+    font-family: 'Space Mono', monospace;
+}
+
+.sans {
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
