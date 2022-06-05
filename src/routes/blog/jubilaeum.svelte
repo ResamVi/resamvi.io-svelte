@@ -21,6 +21,7 @@
             <iframe
                     class="embed-responsive-item"
                     src="https://www.youtube.com/embed/2Syx6_v-Wuc"
+                    title="scrubsiber milestone yayy"
                     allowfullscreen>
             </iframe>
         </div>

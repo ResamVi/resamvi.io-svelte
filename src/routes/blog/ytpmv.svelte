@@ -19,6 +19,7 @@
             <iframe
                     src="https://www.youtube-nocookie.com/embed/kDakzY8eFdY"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    title="scrubsiber milestone yayy"
                     allowfullscreen>
             </iframe>
         </div>

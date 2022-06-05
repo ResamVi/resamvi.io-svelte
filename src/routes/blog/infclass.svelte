@@ -10,7 +10,7 @@
     <span slot="date">08. August, 2020</span>
     <span slot="title">InfClass Stats</span>
     <div slot="content">
-        <img src="/016_infclassstats/infclass.png" class="img-responsive" loading="lazy">
+        <img src="/016_infclassstats/infclass.png" class="img-responsive" alt="infclass header">
 
         <p>
             Mit InfClass Stats wird die Spieler Performance getrackt von einem <a href="https://teeworlds.com/">Teeworlds</a> Mod der sich
@@ -19,7 +19,7 @@
             der README in der Repository gelesen werden: <a href="https://github.com/ResamVi/infclass-stats">https://github.com/ResamVi/infclass-stats</a>
         </p>
 
-        <img src="/016_infclassstats/gameplay.png" class="img-responsive" loading="lazy">
+        <img src="/016_infclassstats/gameplay.png" class="img-responsive" alt="gameplay snapshot">
         <p class="center">Beispiel Gameplay von InfectionClass</p>
 
         <p>

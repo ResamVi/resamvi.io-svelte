@@ -44,6 +44,8 @@
     import Bouncingball from './blog/bouncingball.svelte';
     import Chocolatechips from './blog/chocolatechipcookies.svelte';
     import Start from './blog/start.svelte';
+    import { onMount } from 'svelte';
+
 
     const icons = [
         { link: "https://github.com/ResamVi", src: "/github.png" , description: "Code" },
@@ -54,34 +56,39 @@
     ];
 
     const entries = [
-        { component: BadischeMeile22,   width: 7920 },
-        { component: Electroqueens,     width: 22200 },
-        { component: Infclass,          width: 40680 },
-        { component: Apfelkuchen,       width: 43080 },
-        { component: Schlossparklauf,   width: 56280 },
-        { component: YTPMV,             width: 73920 },
-        { component: Pastmemories,      width: 86999 },
-        { component: Spayle,            width: 91680 },
-        { component: Jubilaeum,         width: 93959 },
-        { component: Rheinuferlauf,     width: 103679 },
-        { component: Apfelkuchen,       width: 105883 },
-        { component: Kaesekuchen,       width: 107247 },
-        { component: Charityrun,        width: 115211 },
-        { component: Screenbounce,      width: 116095 },
-        { component: Bouncingball,      width: 116854 },
-        { component: Chocolatechips,    width: 118458 },
-        { component: Start,             width: 121857 },
+        { component: BadischeMeile22 },
+        { component: Electroqueens },
+        { component: Infclass },
+        { component: Apfelkuchen },
+        { component: Schlossparklauf },
+        { component: YTPMV },
+        { component: Pastmemories },
+        { component: Spayle },
+        { component: Jubilaeum },
+        { component: Rheinuferlauf },
+        { component: Apfelkuchen },
+        { component: Kaesekuchen },
+        { component: Charityrun },
+        { component: Screenbounce },
+        { component: Bouncingball },
+        { component: Chocolatechips },
+        { component: Start },
     ];
 
     let index = 0;
 
-    let yScroll = 0;
-    $: if(yScroll >= entries[index].width) {
-        index++;
-    }
+    // lazy loading
+    onMount(() => {
+        let io = new IntersectionObserver(
+            entries => {
+                if(entries[0].isIntersecting) {
+                    index++
+                }
+            },
+        );
+        io.observe(document.querySelector('#observer'));
+    });
 </script>
-
-<svelte:window bind:scrollY={yScroll}/>
 
 <main>
     {#each entries as entry, i}
@@ -89,6 +96,7 @@
             <svelte:component this={entry.component} />
         {/if}
     {/each}
+    <div id="observer"></div>
 </main>
 
 <style>

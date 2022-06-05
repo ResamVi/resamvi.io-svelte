@@ -10,7 +10,7 @@
     <span slot="date">12. April 2018</span>
     <span slot="title">past memories - Hinter den Kollissen & Grübeleien</span>
     <div slot="content">
-        <img src="/012_pastmemories/past_memories_logo.png">
+        <img src="/012_pastmemories/past_memories_logo.png" alt="past memories logo">
 
         <h1>Sinn des Blog Posts</h1>
         <p> Revue passieren, ResamVi heute mit ResamVi damals vergleichen, ein bisschen darauf eingehen
@@ -39,8 +39,8 @@
                 <td><h4 class="center">Heute (After Effects)</h4></td>
             </tr>
             <tr>
-                <td><img src="/012_pastmemories/camera_firsttry.gif"></td>
-                <td><img src="/012_pastmemories/camera_today.gif"></td>
+                <td><img src="/012_pastmemories/camera_firsttry.gif" alt="camera first try"></td>
+                <td><img src="/012_pastmemories/camera_today.gif" alt="camera today"></td>
             </tr>
         </table>
 
@@ -55,8 +55,8 @@
                 <td><h4 class="center">Memes (2018)</h4></td>
             </tr>
             <tr>
-                <td class="center"><img src="/012_pastmemories/meme2010.gif" width="80%"></td>
-                <td class="center"><img src="/012_pastmemories/meme2018.gif" width="80%"></td>
+                <td class="center"><img src="/012_pastmemories/meme2010.gif" alt="meme 2010" width="80%"></td>
+                <td class="center"><img src="/012_pastmemories/meme2018.gif" alt="meme 2018" width="80%"></td>
             </tr>
         </table>
 
@@ -180,10 +180,10 @@
             Videos zum Einsatz </p>
 
         <p> Hinterher müssen einfach die einzelnen Szenen eingefügt werden an die richtigen Stellen </p>
-        <img src="/012_pastmemories/full_map.gif"><br />
+        <img src="/012_pastmemories/full_map.gif" alt="full map"><br />
 
         <p> Und alles laufen lassen und verschwinden lassen wenn die Kamera gerade läuft... manchmal auch nicht.</p>
-        <img src="/012_pastmemories/full_map_motion.gif"><br />
+        <img src="/012_pastmemories/full_map_motion.gif" alt="full map motion"><br />
 
         <p> Zuletzt noch den Weg der Kamera und des Samenerguss, dem wir da folgen aufzeichnen... Fertig </p>
         <img src="/012_pastmemories/cam_path.png" alt="cam path"><br />

@@ -73,7 +73,7 @@
             <p>Und zum Schluss kann mit Phaser einem Framework in Javascript der Quelltext für das eigentliche Spiel geschrieben werden.
                 Alle umständliche low-level Arbeit die mit WebGL/Canvas werden wegabstrahiert.<br>
                 Was übrig bleibt ist alles was es eigentlich braucht. Texturen/Sprites, Physik und Kollisionssystem, Sound/Musikverarbeitung, Schnittstelle für Steuerung usw.</p>
-            <img src="/011_spayle/phaser.png" loading="lazy" alt="phaser logo">
+            <img src="/011_spayle/phaser.png" alt="phaser logo">
         </div>
 
         <h1>Komplikationen</h1>

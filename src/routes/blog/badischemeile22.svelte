@@ -16,7 +16,7 @@
         </p>
 
         <p>Die Strecke</p>
-        <img src="/018_badischemeile22/strecke.png" alt="thumbnail" />
+        <img src="/018_badischemeile22/strecke.png" loading="lazy" alt="thumbnail" />
 
         <table>
             <caption>Weit abseits vom Start am Europabad hatte ich mein Warmup</caption>
@@ -25,8 +25,8 @@
                 <td>9:30</td>
             </tr>
             <tr>
-                <td> <img src="/018_badischemeile22/a_leer.jpg" /> </td>
-                <td> <img src="/018_badischemeile22/a_voll.jpg" /> </td>
+                <td> <img src="/018_badischemeile22/a_leer.jpg" loading="lazy" alt="leerer platz" /> </td>
+                <td> <img src="/018_badischemeile22/a_voll.jpg" loading="lazy" alt="voller platz" /> </td>
             </tr>
         </table>
 
@@ -37,8 +37,8 @@
                 <td>8:00</td>
             </tr>
             <tr>
-                <td> <img src="/018_badischemeile22/b_leer.jpg" /> </td>
-                <td> <img src="/018_badischemeile22/b_voll.jpg" /> </td>
+                <td> <img src="/018_badischemeile22/b_leer.jpg" loading="lazy" alt="anderer leerer platz"/> </td>
+                <td> <img src="/018_badischemeile22/b_voll.jpg" loading="lazy" alt="anderer voller platz"/> </td>
             </tr>
         </table>
 
@@ -55,13 +55,13 @@
         </video>
 
         <p>Aber zurück zum Anfang: Erstmal Startnummern holen</p>
-        <img src="/018_badischemeile22/startnummer_holen.jpg" alt="thumbnail" />
+        <img src="/018_badischemeile22/startnummer_holen.jpg" loading="lazy" alt="thumbnail" />
 
         <p>Hier meine. Ein T-Shirt gibts auch dazu. Wahl war zwischen Violett, Gelb, Rot und Grün.</p>
-        <img src="/018_badischemeile22/startnummer.jpg" alt="thumbnail" />
+        <img src="/018_badischemeile22/startnummer.jpg" loading="lazy" alt="thumbnail" />
 
         <p>Es wird auch schon immer voller. T minus 40 bis Startschuss</p>
-        <img src="/018_badischemeile22/voller.jpg" alt="thumbnail" />
+        <img src="/018_badischemeile22/voller.jpg" loading="lazy" alt="thumbnail" />
 
         <p>
             Start in zwei Gruppen. Ich war in der zweiten Gruppe und hier ist die Aufnahme vom ersten Start:
@@ -78,10 +78,10 @@
             Zum Lauf: Ich stand beim Start halt ziemlich weit hinten und war eigentlich permanent beschäftigt Leute zu überholen<br/>
             Ist also schwierig einen konstanten Pace zu halten. Guckt euch das an LOL:
         </p>
-        <img src="/018_badischemeile22/bm_pace.png" alt="thumbnail" />
+        <img src="/018_badischemeile22/bm_pace.png" loading="lazy" alt="thumbnail" />
 
         <p>Und jetzt im Vergleich zu etwas Normalem (Schlossparklauf 2018)</p>
-        <img src="/014_schlossparklauf18/graph.png" alt="thumbnail" />
+        <img src="/014_schlossparklauf18/graph.png" loading="lazy" alt="thumbnail" />
 
         <p>Welcher Platz? 551. von 2290 unter Männern</p>
     </div>
