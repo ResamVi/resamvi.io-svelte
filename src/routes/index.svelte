@@ -50,6 +50,7 @@
         { link: "https://www.youtube.com/user/ResamVi", src: "/youtube.png", description: "Videos" },
         { link: "https://dst.resamvi.io/", src: "/dstvis.png", description: "Don't Starve" },
         { link: "https://stats.resamvi.io/", src: "/infclass.png", description: "InfClass Stats" },
+        { link: "https://race.resamvi.io/", src: "/car.png", description: "Sennai" },
     ];
 
     const entries = [
