@@ -1,11 +1,10 @@
-import adapter from '@sveltejs/adapter-node';
-import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
-export default {
-	preprocess: preprocess(),
-
+const config = {
 	kit: {
-		adapter: adapter(),
-	},
+		adapter: adapter()
+	}
 };
+
+export default config;

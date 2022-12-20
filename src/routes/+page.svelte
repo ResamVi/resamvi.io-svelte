@@ -6,7 +6,7 @@
     <div id="row1">
         <img src="/logo.png" id="logo" alt="melone">
         <img src="/line.png" id="line" alt="linie">
-        <span id="resamvi">ResamVi</span>
+       <span id="resamvi">ResamVi</span>
     </div>
 
     <div id="row2">
@@ -28,22 +28,22 @@
 </header>
 
 <script>
-    import BadischeMeile22 from './blog/badischemeile22.svelte';
-    import Electroqueens from './blog/electroqueens.svelte';
-    import Infclass from './blog/infclass.svelte';
-    import Schlossparklauf from './blog/schlossparklauf18.svelte';
-    import YTPMV from './blog/ytpmv.svelte';
-    import Pastmemories from './blog/pastmemories.svelte';
-    import Spayle from './blog/spayle.svelte';
-    import Jubilaeum from './blog/jubilaeum.svelte';
-    import Rheinuferlauf from './blog/rheinuferlauf17.svelte';
-    import Apfelkuchen from './blog/apfelkuchen.svelte';
-    import Kaesekuchen from './blog/kaesekuchen.svelte';
-    import Charityrun from './blog/charityrun17.svelte';
-    import Screenbounce from './blog/screenbounce.svelte';
-    import Bouncingball from './blog/bouncingball.svelte';
-    import Chocolatechips from './blog/chocolatechipcookies.svelte';
-    import Start from './blog/start.svelte';
+    import BadischeMeile22 from './[blog]/badischemeile22.svelte';
+    import Electroqueens from './[blog]/electroqueens.svelte';
+    import Infclass from './[blog]/infclass.svelte';
+    import Schlossparklauf from './[blog]/schlossparklauf18.svelte';
+    import YTPMV from './[blog]/ytpmv.svelte';
+    import Pastmemories from './[blog]/pastmemories.svelte';
+    import Spayle from './[blog]/spayle.svelte';
+    import Jubilaeum from './[blog]/jubilaeum.svelte';
+    import Rheinuferlauf from './[blog]/rheinuferlauf17.svelte';
+    import Apfelkuchen from './[blog]/apfelkuchen.svelte';
+    import Kaesekuchen from './[blog]/kaesekuchen.svelte';
+    import Charityrun from './[blog]/charityrun17.svelte';
+    import Screenbounce from './[blog]/screenbounce.svelte';
+    import Bouncingball from './[blog]/bouncingball.svelte';
+    import Chocolatechips from './[blog]/chocolatechipcookies.svelte';
+    import Start from './[blog]/start.svelte';
     import { onMount } from 'svelte';
 
 
@@ -82,7 +82,7 @@
         let io = new IntersectionObserver(
             entries => {
                 if(entries[0].isIntersecting) {
-                    index++
+					index++
                 }
             },
         );
@@ -96,7 +96,7 @@
             <svelte:component this={entry.component} />
         {/if}
     {/each}
-    <div id="observer"></div>
+	<div id="observer"></div>
 </main>
 
 <style>
@@ -146,6 +146,10 @@
         gap: 10px;
         margin-top: 50px;
     }
+
+	#observer {
+		height: 10px;
+	}
 
     .icon-link {
         text-decoration: none;
