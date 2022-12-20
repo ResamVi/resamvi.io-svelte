@@ -8,6 +8,9 @@ RUN npm install
 COPY . ./
 RUN npm run build
 
-FROM nginx:1.23-alpine
-COPY --from=build /app/build /usr/share/nginx/html
+FROM node:18-alpine
+COPY --from=build /app .
+COPY . .
 
+EXPOSE 3000
+CMD ["node", "./build"]
