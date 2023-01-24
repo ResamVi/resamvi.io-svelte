@@ -36,6 +36,10 @@ iframe {
     height: 100%;
 }
 
+h1 a {
+    text-decoration: none;
+}
+
 /* 16:9 ratio */
 .video-container {
     height: calc(100vw * 0.562499999);
