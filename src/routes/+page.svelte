@@ -44,6 +44,7 @@
     import Bouncingball from './[blog]/bouncingball.svelte';
     import Chocolatechips from './[blog]/chocolatechipcookies.svelte';
     import Start from './[blog]/start.svelte';
+    import Dip from './[blog]/dip.svelte';
     import { onMount } from 'svelte';
 
 
@@ -56,6 +57,7 @@
     ];
 
     const entries = [
+        { component: Dip },
         { component: BadischeMeile22 },
         { component: Electroqueens },
         { component: Infclass },
