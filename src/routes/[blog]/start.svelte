@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Spayle - ResamVi</title>
+    <title>Zum Start des Blogs - ResamVi</title>
 </svelte:head>
 
 <script>
@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">1. April, 2017</span>
-    <span slot="title">Zum Start des Blogs</span>
+    <a href="/start" slot="title">Zum Start des Blogs</a>
     <div slot="content">
         <p>Habe ich auch gleichzeitig ein neues Teeworlds Video auf meinem Youtube Channel hochgeladen.</p>
 

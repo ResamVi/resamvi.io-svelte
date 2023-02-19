@@ -32,7 +32,7 @@ if (n > 0) &#123;
 
 <Entry>
     <span slot="date">16. Mai, 2021</span>
-    <span slot="title">Neues Video: The Electro Queens</span>
+    <a href="/electroqueens" slot="title">Neues Video: The Electro Queens</a>
     <div slot="content">
         <img src="/017_electroqueens/thumbnail.png" alt="thumbnail" />
 
@@ -105,14 +105,12 @@ if (n > 0) &#123;
                 <td>Lisa</td>
                 <td class="flexible">
                     <img src="/017_electroqueens/lisa_comic.png" alt="lisa comic" />
-                    <img src="" />
                 </td>
             </tr>
             <tr>
                 <td>Beidou</td>
                 <td class="flexible">
                     <img src="/017_electroqueens/beidou_teaser.jpg" alt="beidou teaser" />
-                    <img src="" />
                 </td>
             </tr>
         </table>
@@ -235,7 +233,7 @@ if (n > 0) &#123;
         </p>
 
         <p>Bei After Effects gibt es einen eigenen Reiter für Content-Aware Fill:</p>
-        <img src="/017_electroqueens/fill_use.png" />
+        <img src="/017_electroqueens/fill_use.png" alt="content-aware fill" />
 
         <table class="no-border">
             <tr>
@@ -244,9 +242,9 @@ if (n > 0) &#123;
                 <td><h4 class="center">Danach</h4></td>
             </tr>
             <tr>
-                <td> <img src="/017_electroqueens/fill_ohne.png" /> </td>
-                <td> <img src="/017_electroqueens/fill_masked.png" /> </td>
-                <td> <img src="/017_electroqueens/fill_result.png" /> </td>
+                <td> <img src="/017_electroqueens/fill_ohne.png" alt="fill ohne"/> </td>
+                <td> <img src="/017_electroqueens/fill_masked.png" alt="fill masked" /> </td>
+                <td> <img src="/017_electroqueens/fill_result.png" alt="fill result" /> </td>
             </tr>
         </table>
 
@@ -260,8 +258,8 @@ if (n > 0) &#123;
                 <td><h4 class="center">Danach</h4></td>
             </tr>
             <tr>
-                <td> <img src="/017_electroqueens/fill_without.gif" /> </td>
-                <td> <img src="/017_electroqueens/beidou_cuts.gif" /> </td>
+                <td> <img src="/017_electroqueens/fill_without.gif" alt="fill ohne" /> </td>
+                <td> <img src="/017_electroqueens/beidou_cuts.gif" alt="beidou cuts" /> </td>
             </tr>
         </table>
 

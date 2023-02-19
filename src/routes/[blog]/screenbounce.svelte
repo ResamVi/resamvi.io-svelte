@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">20. April, 2017</span>
-    <span slot="title">Bounce across screen</span>
+    <a href="/screenbounce" slot="title">Bounce across screen</a>
     <div slot="content">
         <h1>Zweite Übung:</h1>
         <img src="/005_screenbounce/challenge2.jpg" alt="challenge descr">

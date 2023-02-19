@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">08. August, 2020</span>
-    <span slot="title">InfClass Stats</span>
+    <a href="/infclass" slot="title">InfClass Stats</a>
     <div slot="content">
         <img src="/016_infclassstats/infclass.png" class="img-responsive" alt="infclass header">
 

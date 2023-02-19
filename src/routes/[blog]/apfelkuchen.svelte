@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">23. Juni 2017</span>
-    <span slot="title">Apfelstreuselkuchen</span>
+    <a href="/apfelkuchen" slot="title">Apfelstreuselkuchen</a>
     <div slot="content">
         <h1>Teig</h1>
         <ul>

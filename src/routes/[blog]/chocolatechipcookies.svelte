@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">13. April, 2017</span>
-    <span slot="title">Chocolate Chip Cookies</span>
+    <a href="/chocolatechipcookies" slot="title">Chocolate Chip Cookies</a>
     <div slot="content">
         <h1>Zutaten</h1>
         <ul>

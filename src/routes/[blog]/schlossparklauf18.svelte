@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">24. November, 2018</span>
-    <span slot="title">Schlossparklauf</span>
+    <a href="/schlossparklauf18" slot="title">Schlossparklauf</a>
     <div slot="content">
         <img src="/014_schlossparklauf18/logo.jpg" alt="logo">
 

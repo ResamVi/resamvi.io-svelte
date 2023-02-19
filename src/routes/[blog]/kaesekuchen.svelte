@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">3. Mai, 2017</span>
-    <span slot="title">Käsekuchen (&Oslash; 20cm)</span>
+    <a href="/kaesekuchen" slot="title">Käsekuchen (&Oslash; 20cm)</a>
     <div slot="content">
         <h2>Zutaten</h2>
         <ul>

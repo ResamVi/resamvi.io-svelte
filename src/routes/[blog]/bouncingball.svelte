@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">20. April, 2017</span>
-    <span slot="title">Bounce across screen</span>
+    <a href="bouncingball" slot="title">Bounce across screen</a>
     <div slot="content">
         <h1>Aufgabe</h1>
         <img src="/004_bouncingball/challenge1.jpg" alt="challenge descr" />

@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">5. September, 2017</span>
-    <span slot="title">100 Abonennenten</span>
+    <a href="/jubilaeum" slot="title">100 Abonennenten</a>
     <div slot="content">
         <p>Ich hab 100 Abonennten gekriegt, dazu ein Video voll mit Memes gemacht.</p>
         <p>

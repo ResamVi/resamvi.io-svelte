@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">25. Mai, 2017</span>
-    <span slot="title">Charity Walk &amp; Run</span>
+    <a href="charityrun17" slot="title">Charity Walk &amp; Run</a>
     <div slot="content">
         <h1>Renninformationen</h1>
         <img src="/006_charityrun17/runlogo.png" alt="logo">
