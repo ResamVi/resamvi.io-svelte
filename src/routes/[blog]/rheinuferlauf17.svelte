@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">23. Juni 2017</span>
-    <span slot="title">Apfelstreuselkuchen</span>
+    <a href="/rheinuferlauf17" slot="title">Rheinuferlauf 2017</a>
     <div slot="content">
         <img src="/009_rheinuferlauf17/kehllogo.png" alt="logo">
         <h1>Renninformationen</h1>

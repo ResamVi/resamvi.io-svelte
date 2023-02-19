@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">13. Oktober 2017</span>
-    <span slot="title">SPAYLE - Alpha Release</span>
+    <a href="/spayle" slot="title">SPAYLE - Alpha Release</a>
     <div slot="content">
         <div class="center">
             <p>Der Alpha-Release von meinem Game:</p>

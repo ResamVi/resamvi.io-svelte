@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">12. April 2018</span>
-    <span slot="title">past memories - Hinter den Kollissen & Grübeleien</span>
+    <a href="/pastmemories" slot="title">past memories - Hinter den Kollissen & Grübeleien</a>
     <div slot="content">
         <img src="/012_pastmemories/past_memories_logo.png" alt="past memories logo">
 
@@ -73,8 +73,8 @@
                 <td><h4 class="center">Past memories (2018)</h4></td>
             </tr>
             <tr>
-                <td class="center"><img src="/012_pastmemories/death2010.gif" width="80%"></td>
-                <td class="center"><img src="/012_pastmemories/death2018.gif" width="80%"></td>
+                <td class="center"><img src="/012_pastmemories/death2010.gif" alt="tot 2010" width="80%"></td>
+                <td class="center"><img src="/012_pastmemories/death2018.gif" alt="tot 2018" width="80%"></td>
             </tr>
         </table>
         <br />
@@ -102,10 +102,10 @@
         </p>
 
         <h1>ctf_resamvi</h1>
-        <img src="/012_pastmemories/ctf_resamvi.png">
+        <img src="/012_pastmemories/ctf_resamvi.png" alt="ctf_resamvi">
 
         <h1>ctf_resamvi2</h1>
-        <img src="/012_pastmemories/ctf_resamvi2.png">
+        <img src="/012_pastmemories/ctf_resamvi2.png" alt="ctf_resamvi2">
 
         <p>Ich glaub man kann sich denken wo wir in ctf_resamvi2 standen.</p>
 
@@ -113,20 +113,20 @@
         <p>
             Die Tees die in der Szene zu sehen sind waren nie da
         </p>
-        <img src="/012_pastmemories/first_scene1.gif">
+        <img src="/012_pastmemories/first_scene1.gif" alt="first scene">
 
         <p>
             und wurden erst hinterher eingefügt.
         </p>
-        <img src="/012_pastmemories/first_scene2.gif">
+        <img src="/012_pastmemories/first_scene2.gif" alt="first scene other">
 
         <p>
             Atmosphäre, Licht, CC
         </p>
-        <img src="/012_pastmemories/first_scene3.gif">
+        <img src="/012_pastmemories/first_scene3.gif" alt="first scene different">
 
         <h1>Der Money Shot und meine Lieblingsszene</h1>
-        <img src="/012_pastmemories/money_shot.gif">
+        <img src="/012_pastmemories/money_shot.gif" alt="money shot">
 
         <p>Danach das Kriegsgedicht, nur die 2. und 3. Strophe</p>
         <blockquote>
@@ -150,9 +150,9 @@
                 <td><h4 class="center">Fertig</h4></td>
             </tr>
             <tr>
-                <td class="center"><img src="/012_pastmemories/greenscreen_flag.gif" width="85%"></td>
-                <td class="center"><img src="/012_pastmemories/thirdscene_progress.gif" width="85%"></td>
-                <td class="center"><img src="/012_pastmemories/thirdscene_final.gif" width="85%"></td>
+                <td class="center"><img src="/012_pastmemories/greenscreen_flag.gif" alt="greenscreen flag" width="85%"></td>
+                <td class="center"><img src="/012_pastmemories/thirdscene_progress.gif" alt="thirdscene progress" width="85%"></td>
+                <td class="center"><img src="/012_pastmemories/thirdscene_final.gif" alt="thirdscene final" width="85%"></td>
             </tr>
         </table>
 
@@ -165,13 +165,13 @@
         </p>
 
         <h1>Takes für Tod</h1>
-        <img src="/012_pastmemories/greenscreen_death.gif"><br />
+        <img src="/012_pastmemories/greenscreen_death.gif" alt="greenscreen death"><br />
 
         <h1>Kreuzung</h1>
-        <img src="/012_pastmemories/greenscreen_cross.gif"><br />
+        <img src="/012_pastmemories/greenscreen_cross.gif" alt="greenscreen cross"><br />
 
         <h1>Sex (mit Zeitansage)</h1>
-        <img src="/012_pastmemories/greenscreen_hearts.gif"><br />
+        <img src="/012_pastmemories/greenscreen_hearts.gif" alt="greenscreen hearts"><br />
 
         <h1>Freie Kamera</h1>
 

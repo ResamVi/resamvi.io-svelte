@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">8. Mai, 2022</span>
-    <span slot="title">Badische Meile 2022</span>
+    <a href="/badischemeile22" slot="title">Badische Meile 2022</a>
     <div slot="content">
         <p>
             Nach 2 Jahren Corona konnte wieder die Badische Meile stattfinden. <br/>

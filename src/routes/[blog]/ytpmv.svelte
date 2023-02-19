@@ -8,7 +8,7 @@
 
 <Entry>
     <span slot="date">31. Oktober 2018</span>
-    <span slot="title">Teeworlds Poop Music Video (Re: Youtube Shit)</span>
+    <a href="ytpmv" slot="title">Teeworlds Poop Music Video (Re: Youtube Shit)</a>
     <div slot="content">
         <h1>Hintergrundgeschichte</h1>
         <p>

@@ -28,24 +28,8 @@
 </header>
 
 <script>
-    import BadischeMeile22 from './[blog]/badischemeile22.svelte';
-    import Electroqueens from './[blog]/electroqueens.svelte';
-    import Infclass from './[blog]/infclass.svelte';
-    import Schlossparklauf from './[blog]/schlossparklauf18.svelte';
-    import YTPMV from './[blog]/ytpmv.svelte';
-    import Pastmemories from './[blog]/pastmemories.svelte';
-    import Spayle from './[blog]/spayle.svelte';
-    import Jubilaeum from './[blog]/jubilaeum.svelte';
-    import Rheinuferlauf from './[blog]/rheinuferlauf17.svelte';
-    import Apfelkuchen from './[blog]/apfelkuchen.svelte';
-    import Kaesekuchen from './[blog]/kaesekuchen.svelte';
-    import Charityrun from './[blog]/charityrun17.svelte';
-    import Screenbounce from './[blog]/screenbounce.svelte';
-    import Bouncingball from './[blog]/bouncingball.svelte';
-    import Chocolatechips from './[blog]/chocolatechipcookies.svelte';
-    import Start from './[blog]/start.svelte';
     import { onMount } from 'svelte';
-
+    import { released as entries } from './entries.ts'
 
     const icons = [
         { link: "https://github.com/ResamVi", src: "/github.png" , description: "Code" },
@@ -53,26 +37,6 @@
         { link: "https://dst.resamvi.io/", src: "/dstvis.png", description: "Don't Starve" },
         { link: "https://stats.resamvi.io/", src: "/infclass.png", description: "InfClass Stats" },
         { link: "https://race.resamvi.io/", src: "/car.png", description: "Sennai" },
-    ];
-
-    const entries = [
-        { component: BadischeMeile22 },
-        { component: Electroqueens },
-        { component: Infclass },
-        { component: Apfelkuchen },
-        { component: Schlossparklauf },
-        { component: YTPMV },
-        { component: Pastmemories },
-        { component: Spayle },
-        { component: Jubilaeum },
-        { component: Rheinuferlauf },
-        { component: Apfelkuchen },
-        { component: Kaesekuchen },
-        { component: Charityrun },
-        { component: Screenbounce },
-        { component: Bouncingball },
-        { component: Chocolatechips },
-        { component: Start },
     ];
 
     let index = 0;
