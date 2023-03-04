@@ -15,8 +15,10 @@ import Bouncingball from './[blog]/bouncingball.svelte';
 import Chocolatechips from './[blog]/chocolatechipcookies.svelte';
 import Start from './[blog]/start.svelte';
 import Dip from './[blog]/dip.svelte';
+import Tagebuch from './[blog]/tagebuch.svelte';
 
 const entries = [
+    { component: Tagebuch, url: "tagebuch", released: false },
     { component: Dip, url: "dip", released: false },
     { component: BadischeMeile22, url: "badischemeile22", released: true },
     { component: Electroqueens, url: "electroqueens", released: true },
