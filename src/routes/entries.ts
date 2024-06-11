@@ -16,8 +16,10 @@ import Chocolatechips from './[blog]/chocolatechipcookies.svelte';
 import Start from './[blog]/start.svelte';
 import Dip from './[blog]/dip.svelte';
 import Charts from './[blog]/charts.svelte';
+import VeniceBeach from './[blog]/venicebeach.svelte';
 
 const entries = [
+    { component: VeniceBeach, url: "venicebeach", released: true },
     { component: Dip, url: "dip", released: false },
     { component: Charts, url: "charts", released: true },
     { component: BadischeMeile22, url: "badischemeile22", released: true },
