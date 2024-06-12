@@ -54,111 +54,118 @@
             data: transformed4,
         }
 
-        new Chart(
-            document.getElementById('chart1'),
-            {
-                type: 'line',
-                data: {
-                    datasets: [
-                        suedstadt_w1,
-                        suedstadt_w2,
-                    ]
-                },
-                options: {
-                    scales: {
-                        x: {
-                            type: 'time',
-                            adapters: {
-                                date: {
-                                    locale: de
+        setTimeout(() => {
+            new Chart(
+                document.getElementById('chart1'),
+                {
+                    type: 'line',
+                    data: {
+                        datasets: [
+                            suedstadt_w1,
+                            suedstadt_w2,
+                        ]
+                    },
+                    options: {
+                        animation: false,
+                        scales: {
+                            x: {
+                                type: 'time',
+                                adapters: {
+                                    date: {
+                                        locale: de
+                                    },
+                                },
+                                time: {
+                                    unit: 'hour',
+                                    displayFormats: {
+                                        hour: 'EEEE, kk:mm'
+                                    }
+                                },
+                                border: {
+                                    dash: [6, 6],
+                                },
+                                grid: {
+                                    display: true,
+                                    offset: false,
                                 },
                             },
-                            time: {
-                                unit: 'hour',
-                                displayFormats: {
-                                    hour: 'EEEE, kk:mm'
-                                }
-                            },
-                            border: {
-                                dash: [6, 6],
-                            },
-                            grid: {
-                                display: true,
-                                offset: false,
-                            },
-                        },
-                        y: {
-                            min: 0,
-                            max: 250,
-                            grid: {
-                                display: true,
-                                color: '#dadada',
-                            },
-                            border: {
-                                dash: [6, 6],
-                            },
+                            y: {
+                                min: 0,
+                                max: 250,
+                                grid: {
+                                    display: true,
+                                    color: '#dadada',
+                                },
+                                border: {
+                                    dash: [6, 6],
+                                },
 
+                            }
                         }
                     }
                 }
-            }
-        );
+            );
+        }, 1000);
 
-        new Chart(
-            document.getElementById('chart2'),
-            {
-                type: 'line',
-                data: {
-                    datasets: [
-                        postgalerie_w1,
-                        postgalerie_w2,
-                    ]
-                },
-                options: {
-                    scales: {
-                        x: {
-                            type: 'time',
-                            adapters: {
-                                date: {
-                                    locale: de
+        setTimeout(() => {
+            new Chart(
+                document.getElementById('chart2'),
+                {
+                    type: 'line',
+                    data: {
+                        datasets: [
+                            postgalerie_w1,
+                            postgalerie_w2,
+                        ]
+                    },
+                    options: {
+                        animation: false,
+                        scales: {
+                            x: {
+                                type: 'time',
+                                adapters: {
+                                    date: {
+                                        locale: de
+                                    },
+                                },
+                                time: {
+                                    unit: 'hour',
+                                    displayFormats: {
+                                        hour: 'EEEE, kk:mm'
+                                    }
+                                },
+                                border: {
+                                    dash: [6, 6],
+                                },
+                                grid: {
+                                    display: true,
+                                    offset: false,
                                 },
                             },
-                            time: {
-                                unit: 'hour',
-                                displayFormats: {
-                                    hour: 'EEEE, kk:mm'
-                                }
-                            },
-                            border: {
-                                dash: [6, 6],
-                            },
-                            grid: {
-                                display: true,
-                                offset: false,
-                            },
-                        },
-                        y: {
-                            min: 0,
-                            max: 250,
-                            grid: {
-                                display: true,
-                                color: '#dadada',
+                            y: {
+                                min: 0,
+                                max: 250,
+                                grid: {
+                                    display: true,
+                                    color: '#dadada',
+                                    },
+                                border: {
+                                    dash: [6, 6],
                                 },
-                            border: {
-                                dash: [6, 6],
-                            },
 
+                            }
                         }
                     }
                 }
-            }
-        );
+            );
+
+        }, 1500);
     });
 </script>
 
 <Entry>
     <span slot="date">12. Juni 2024</span>
-    <a href="/apfelkuchen" slot="title">Venice Beach Statistiken</a>
+    <a href="/venicebeach" slot="title">Venice Beach Statistiken</a>
     <div slot="content">
         <div class="flex">
             <p>
@@ -207,7 +214,7 @@
         <canvas id="chart2"></canvas>
 
         <h1 class="center">Infografik</h1>
-        <img src="/021_venicebeach/infografik.png" alt="infografik" class="img-responsive">
+        <img src="/021_venicebeach/infografik.png" alt="infografik" class="img-responsive" loading="lazy">
     </div>
 </Entry>
 

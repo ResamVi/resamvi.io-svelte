@@ -1,4 +1,10 @@
 <script>
+    import Chart from "chart.js/auto"
+    import { de } from 'date-fns/locale';
+    import 'chartjs-adapter-date-fns';
+
+    import Chartkick from "chartkick";
+
     import Entry from './_entry.svelte';
     import { onMount } from 'svelte';
 
@@ -6,6 +12,8 @@
     import javascript from "svelte-highlight/languages/javascript";
     import xml from "svelte-highlight/languages/xml";
     import a11yLight from "svelte-highlight/styles/a11y-light";
+
+    Chartkick.use(Chart)
 
     const vorbereitungcode = 
 `let data = [
@@ -587,11 +595,7 @@ chart.render();`
 
 <svelte:head>
     <title>Charting Libraries - ResamVi</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartkick@5.0.1/dist/chartkick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.2.4/dist/frappe-charts.min.iife.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
     <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
     {@html a11yLight}
